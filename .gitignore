@@ -20,3 +20,4 @@ Spark_Training/app-logs
 /.idea/
 /.idea/libraries/
 /output
+/dataSink
