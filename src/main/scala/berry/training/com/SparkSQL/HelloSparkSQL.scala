@@ -31,6 +31,8 @@ object HelloSparkSQL extends Serializable {
 
     surveyDF.createOrReplaceTempView("survey_tbl")
 
+    surveyDF.show()
+
     val countDF = spark.sql(
       "select Country, count(1) as count from survey_tbl where Age < 40 group by Country ")
 
