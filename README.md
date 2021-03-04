@@ -1,10 +1,11 @@
 # Apache Spark Training
 
-> RDD Basics
-> DataFrame Basics
-> DataSet 
+RDD Basics
+DataFrame Basics
+DataSet 
 
 //****************************************************
+
 Logging :
 -Dlog4j.configuration=file:log4j.properties 
 -Dlogfile.name=hello-DS 
