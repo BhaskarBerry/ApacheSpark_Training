@@ -8,7 +8,8 @@
 /target/
 /project/project
 /project/target
-.idea/
+.idea/*
+*.idea/
 *.log
 /deploy-*.zip
 metastore_db/
@@ -16,3 +17,5 @@ metastore_db/
 **/target
 Spark_Training/target
 Spark_Training/app-logs
+/.idea/
+/.idea/libraries/
