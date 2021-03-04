@@ -28,7 +28,7 @@ object HelloDataSet extends Serializable {
 
     import spark.implicits._
 
-    // Read your CSV file
+    // Read your CSV file - Survey Record
     val rowDF: Dataset[Row] = spark.read
       .option("header", "true")
       .option("inferSchema", "true")

@@ -33,12 +33,14 @@ object HelloSpark extends Serializable {
     val partitionSurveyDF = surveyDF.repartition(2)
     val countDf = countByCountry(partitionSurveyDF)
 
-    countDf.foreach(row =>
-      logger.info("Country " + row.getString(0) + " Count " + row.get(1).toString))
+    countDf.foreach(
+      row =>
+        logger.info(
+          "Country " + row.getString(0) + " Count " + row.get(1).toString))
 
     //    logger.info(countDf.collect().mkString("->"))
-        surveyDF.show()
-        countDf.show()
+    surveyDF.show()
+    countDf.show()
 
     logger.info("Stop Hello Spark!!!!")
     //    scala.io.StdIn.readLine()

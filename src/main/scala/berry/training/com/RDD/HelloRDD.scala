@@ -5,6 +5,9 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 case class SurveyRecord(Age: Int, Gender: String, Country: String, State:String)
 
+
+// Sample.csv
+
 object HelloRDD extends Serializable{
   def main(args: Array[String]): Unit = {
     @transient lazy val logger: Logger = Logger.getLogger(getClass.getName)
