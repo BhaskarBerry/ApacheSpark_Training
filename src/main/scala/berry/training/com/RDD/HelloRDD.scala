@@ -1,4 +1,5 @@
 package berry.training.com.RDD
+
 import org.apache.log4j.Logger
 import org.apache.spark.{SparkConf, SparkContext}
 

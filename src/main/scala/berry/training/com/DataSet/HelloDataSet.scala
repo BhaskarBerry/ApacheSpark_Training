@@ -1,6 +1,7 @@
 package berry.training.com.DataSet
+
 import org.apache.log4j.Logger
-import org.apache.spark.sql.{DataFrame, Dataset, Row, SparkSession}
+import org.apache.spark.sql.{Dataset, Row, SparkSession}
 
 case class SurveyRecord(Age: Int,
                         Gender: String,

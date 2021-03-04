@@ -19,3 +19,4 @@ Spark_Training/target
 Spark_Training/app-logs
 /.idea/
 /.idea/libraries/
+/output
